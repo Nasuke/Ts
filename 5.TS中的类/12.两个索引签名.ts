@@ -3,8 +3,8 @@
 
 interface IIndexType {
 
-    // [index: number]: string
-    // [key: string]: any
+    [index: number]: string
+    [key: string]: any
     
 
 // 下面这样写法是错误的 
