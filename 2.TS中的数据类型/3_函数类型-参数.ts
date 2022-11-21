@@ -1,6 +1,5 @@
 
 // 1. 函数的调用方式很多 所以不能自行进行类型推断
-// 2. 不仅指定了类型 还指定了参数个数
 function sumNum(num1: number, num2: number) {
     return num1 + num2
 }
