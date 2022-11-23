@@ -7,13 +7,13 @@ interface IFruit {
     (category: string, price: number): number
 }
 
-const fruit: IFruit = (category: string, price: number) => {
+const Fruit: IFruit = (category: string, price: number) => {
     return 3 * price
 }
     // 1.3 给函数对象添加属性
-fruit.city = "gy"
+Fruit.city = "gy"
     // 1.4 调用
-fruit('apple', 21)
+Fruit('apple', 21)
 
 // 2. 开发中如何选择
     // 2.1 如果只是描述函数类型本身 那就要函数类型表达式

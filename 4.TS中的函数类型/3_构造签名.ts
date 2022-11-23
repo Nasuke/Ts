@@ -10,6 +10,7 @@ interface IConsPerson {
    new (name: string): Person
 }
 
+
 function factory(fn: IConsPerson) {
     return new fn("sheldon")
 }
