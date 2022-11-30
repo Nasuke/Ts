@@ -10,6 +10,7 @@ function foo() {
 type MyReturnType<T extends (...arg: any[]) => any> = T extends (...arg: any[]) => infer R ? R : never
 type MyParamsType<T extends (...arg: any[]) => any> = T extends (...arg: infer A) => any ? A: never
 
+ 
 // 获取函数的返回值类型
 type calcReturnType = MyReturnType<CalcFnType>
 // 获取函数的参数类型

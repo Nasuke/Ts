@@ -11,7 +11,6 @@ function circle(err: string): never {
 // 2. 但是在框架和一些工具的开发时会用到never
 
 function handleMessage(message: string | number | boolean) {
-    
     switch (typeof message) {
         case "string":
             console.log(message.length)

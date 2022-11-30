@@ -9,4 +9,8 @@ msg = "Cooper"
 const bob = 123
 // bob = 456 X->无法分配到 "bob" ，因为它是常数
 
+
+
+
+
 export {}
