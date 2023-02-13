@@ -1,4 +1,3 @@
-
 type argArr = (string | number)[]
 function foo(...arg: argArr) {
     

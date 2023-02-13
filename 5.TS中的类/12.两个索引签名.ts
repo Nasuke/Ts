@@ -14,6 +14,7 @@ interface IIndexType {
     // [key: string]: string
 }
 
+// 如果索引签名中定义得有其它属性 该属性的返回类型必须满足string类型的返回属性
 const fruits: IIndexType = ['apple', 'banana']
 
 const fruitO = fruits[0]

@@ -15,6 +15,7 @@ class Rect extends Shape {
     }
 }
 
+
 class Circle extends Shape {
     constructor(public radius: number) {
         super()
